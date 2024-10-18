@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yullakanda</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  </head>
+
+  <!-- boottsrap cdn -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+    crossorigin="anonymous"
+  />
+  <body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <!------------------------------------ owl carousel link------------------------------------------------ -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!------------------------------------------------ Navbar Start-------------------------------- -->
+  
+  <div class="container-fluid"  style="background-color: #00b8b8;">
+    
+    <nav class="navbar navbar-expand-lg navbar-light container  ">
+      <div class="container-fluid">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+          <img src="Images/logo.png" alt="Logo" class="logo" />
+          <span class="ms-2">Chandrashila</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link  fw-bold fw-bold " aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold " href="Packages.html" 
+                >Packages</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold " href="Weekend Trips.html" 
+                >Weekend Trips</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold " href="About.html" >About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold " href="Contact.html">Contact</a>
+            </li>
+            <li>
+            </li>
+            <div class="d-flex bg-light rounded " id="book_btn">
+              <a href="Contact.html" class="btn btn-book-now fw-bolder">Book Now</a>
+            </div>
+          </ul>
+        </div>
+        
+      </div>
+    </nav>
+  
+</div>
+
+    <!------------------------------------------------ Navbar End-------------------------------- -->
+
+    <!------------------------------------------------ Carousel Start-------------------------------- -->
+
+    <div
+      id="carouselExampleAutoplaying"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="images/home.webp"
+            class="d-block w-100"
+            id="carousel_img"
+            alt="..."
+          />
+        </div>
+        <!-- <div class="carousel-item">
+        <img src="images/home.webp" class="d-block w-100" id="carousel_img" alt="...">
+      </div> -->
+        <div class="carousel-item">
+          <img
+            src="images/yullanda_carousel.webp"
+            class="d-block w-100"
+            id="carousel_img"
+            alt="..."
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!------------------------------------------------ Carousel End-------------------------------- -->
+
+    <!------------------------------------------------ Package Start-------------------------------- -->
+
+    <div class="package" id="package">
+      <div class="package-container text-center">
+        <h3>Yulla Kanda Trek</h3>
+        <p class="krishna-text">World's highest Krishna temple</p>
+
+        <div class="package-details row row-cols-5 text-center">
+          <div class="col">
+            <i class="bi bi-clock fa-2xl"></i>
+            <p>4 Days 5 Nights</p>
+          </div>
+          <div class="col">
+            <i class="bi bi-people fa-2xl"></i>
+            <p>40 Slots</p>
+          </div>
+          <div class="col">
+            <i class="bi bi-layers fa-2xl"></i>
+            <p>Difficulty - Easy Moderate</p>
+          </div>
+          <div class="col">
+            <i class="bi bi-cake2 fa-2xl"></i>
+            <p>For 10+ years</p>
+          </div>
+          <div class="col">
+            <i class="bi bi-tag fa-2xl"></i>
+            <p>Starting From ₹ 6499/-</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card yulla-card">
+        <img
+          src="images/yullapackage.webp"
+          class="card-img yulla-card-img"
+          alt="Yulla Kanda Trek"
+        />
+        <div class="card-img-overlay">
+          <button type="button" class="btn btn-info">Read More</button>
+        </div>
+      </div>
+    </div>
+    <!------------------------------------------------ Package End-------------------------------- -->
+
+    <!------------------------------------------------ About Start-------------------------------- -->
+
+    <div class="container about" id="about">
+      <div class="about-container row">
+        <div class="about-img col-lg-5">
+          <div
+            id="carouselExampleAutoplaying"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/about1.webp" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="images/about2.webp" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="images/about3.webp" class="d-block w-100" alt="..." />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="about-text col-lg-6">
+          <h1 class="text-center">About</h1>
+          <h3>Yulla Kanda</h3>
+          <p>
+            <span>Location:</span> Yulla Kanda is a mountain peak located in the
+            Garhwal Himalayas, Uttarakhand, India.
+          </p>
+          <p>
+            <span>Elevation:</span> It stands at an elevation of 6,200 meters
+            (20,341 feet) above sea level.
+          </p>
+          <p>
+            <span>Trekking destination:</span> Yulla Kanda is a popular trekking
+            destination for adventure seekers and nature lovers.
+          </p>
+          <p>
+            <span>Scenic views:</span> The peak offers breathtaking views of the
+            surrounding mountains, valleys, and glaciers.
+          </p>
+          <p>
+            <span>Remote location:</span> Yulla Kanda is situated in a remote
+            area, requiring a challenging trek to reach the summit.
+          </p>
+          <p>
+            <span>Best time to visit:</span> The best time to visit Yulla Kanda
+            is during the summer months (June to September).
+          </p>
+          <p>
+            <span>Climbing permits:</span> Trekkers need to obtain permits and
+            follow local regulations to climb Yulla Kanda.
+          </p>
+          <p>
+            <span>Local guides:</span> It is recommended to hire local guides or
+            join a guided trek to navigate the challenging terrain.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <h1 class="text-center typewriter pb-3 fw-bolder">Our Packages</h1>
+
+
+
+
+
+
+
+    <div class="container">
+      <div class="owl-carousel owl-theme">
+        <div class="col border-0">
+          <div class="card h-100 border-0 rounded-0 rounded">
+            <img src="images/kinnaur kailash.webp" class="card-img-top rounded rounded" alt="..." />
+            <div class="card-body">
+              <a class="text-decoration-none" href="Kinnaur.html">
+                <h5 class="card-title fw-bolder text-center">
+                  Kinnaur Kailash
+                </h5></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col border-0">
+          <div class="card h-100 border-0 rounded-0 rounded">
+            <img
+              src="images/kasol-kheerganga.webp"
+              class="card-img-top rounded"
+              alt="..."
+            />
+            <div class="card-body">
+              <a class="text-decoration-none" href="Kinnaur.html">
+                <h5 class="card-title fw-bolder text-center">
+                  kasol-kheerganga
+                </h5></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col border-0">
+          <div class="card h-100 border-0 rounded-0 rounded">
+            <img
+              src="images/jibhi-thirthan.webp"
+              class="card-img-top rounded"
+              alt="..."
+            />
+            <div class="card-body">
+              <a class="text-decoration-none" href="JIBHI-Thirtan.html">
+                <h5 class="card-title fw-bolder text-center">
+                  Jibhi thirthan
+                </h5></a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col border-0">
+          <div class="card h-100 border-0 rounded-0 rounded">
+            <img src="images/mcledonj.webp" class="card-img-top rounded" alt="..." />
+            <div class="card-body">
+              <a class="text-decoration-none" href="mcleodganj-triund.html">
+                <h5 class="card-title fw-bolder text-center">
+                  Mcleodganj Triund
+                </h5></a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col border-0">
+          <div class="card h-100 border-0 rounded-0 rounded">
+            <img
+              src="images/kasol.webp"
+              class="card-img-top rounded"
+              alt="..."
+            />
+            <div class="card-body">
+              <a class="text-decoration-none" href="Manli-kasol.html">
+                <h5 class="card-title fw-bolder text-center">
+                  Manali Kasol
+                </h5></a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col border-0">
+          <div class="card h-100 border-0 rounded-0 rounded">
+            <img
+              src="images/spiti valley.webp"
+              class="card-img-top rounded"
+              alt="..."
+            />
+            <div class="card-body">
+              <a class="text-decoration-none" href="Spitivalley.html">
+                <h5 class="card-title fw-bolder text-center">
+                  Spiti Valley
+                </h5></a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col border-0">
+          <div class="card h-100 border-0 rounded-0 rounded">
+            <img src="images/Ladakh.webp" class="card-img-top rounded" alt="..." />
+            <div class="card-body">
+              <a class="text-decoration-none" href="">
+                <h5 class="card-title fw-bolder text-center">Ladakh</h5></a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col border-0">
+          <div class="card h-100 border-0 rounded-0 rounded">
+            <img
+              src="images/Ladakh Full Circuit.webp"
+              class="card-img-top rounded"
+              alt="..."
+            />
+            <div class="card-body">
+              <a class="text-decoration-none" href="Kinnaur.html">
+                <h5 class="card-title fw-bolder text-center">
+                  Ladakh Full Circuit
+                </h5></a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col border-0">
+          <div class="card h-100 border-0 rounded-0 rounded">
+            <img
+              src="images/Hampta Passs Trek With Chandratal.webp"
+              class="card-img-top rounded"
+              alt="..."
+            />
+            <div class="card-body">
+              <a class="text-decoration-none" href="Hampta_Pass.html">
+                <h5 class="card-title fw-bolder text-center">
+                  Hampta Passs Trek With Chandratal
+                </h5></a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col border-0">
+          <div class="card h-100 border-0 rounded-0 rounded">
+            <img
+              src="images/BirBiling.webp"
+              class="card-img-top rounded"
+              alt="..."
+            />
+            <div class="card-body">
+              <a class="text-decoration-none" href="BirBillingTrek.html">
+                <h5 class="card-title fw-bolder text-center">
+                  Bir Billing Trek
+                </h5></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+                            <h1 class="text-center typewriter pb-3 fw-bolder"> Weekend Trips </h1>
+
+
+
+    <div class="container">
+      <div class="owl-carousel owl-theme">
+        <div class="col border-0">
+          <div class="card h-100 border-0 rounded-0 rounded">
+            <img src="images/yullankanda_trek_sno.webp" class="card-img-top rounded" alt="yullakanda image" />
+            <div class="card-body">
+              <a class="text-decoration-none" href="Yullakanda.html">
+                <h5 class="card-title fw-bolder text-center">
+                  Yullakanda Trek
+                </h5></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col border-0">
+          <div class="card h-100 border-0 rounded-0 rounded">
+            <img
+              src="images/kasol.webp"
+              class="card-img-top rounded"
+              alt="..."
+            />
+            <div class="card-body">
+              <a class="text-decoration-none" href="Manli-kasol.html">
+                <h5 class="card-title fw-bolder text-center">
+                  Manali  Kasol
+                </h5></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col border-0">
+          <div class="card h-100 border-0 rounded-0 rounded">
+            <img
+              src="images/kasol-kheerganga.webp"
+              class="card-img-top rounded"
+              alt="..."
+            />
+            <div class="card-body">
+              <a class="text-decoration-none" href="Kasol-kheerganga.html">
+                <h5 class="card-title fw-bolder text-center">
+                  Kasol-Kheerganga
+                </h5></a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col border-0">
+          <div class="card h-100 border-0 rounded-0 rounded">
+            <img src="images/jibhi-thirthan.webp" class="card-img-top rounded" alt="..." />
+            <div class="card-body">
+              <a class="text-decoration-none" href="JIBHI-Thirtan.html">
+                <h5 class="card-title fw-bolder text-center">
+                  Jibhi-Tirthan</h5></a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col border-0">
+          <div class="card h-100 border-0 rounded-0 rounded">
+            <img
+              src="images/chakrata.webp"
+              class="card-img-top rounded"
+              alt="..."
+            />
+            <div class="card-body">
+              <a class="text-decoration-none" href="Chakrata.html">
+                <h5 class="card-title fw-bolder text-center">
+                  Chakrata
+                </h5></a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col border-0">
+          <div class="card h-100 border-0 rounded-0 rounded">
+            <img
+              src="images/udaipur.webp"
+              class="card-img-top rounded"
+              alt="..."
+            />
+            <div class="card-body">
+              <a class="text-decoration-none" href="Udaipur_kumbalgarh.html">
+                <h5 class="card-title fw-bolder text-center">
+                  Udaipur Kumbalgarh
+                </h5></a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col border-0">
+          <div class="card h-100 border-0 rounded-0 rounded">
+            <img src="images/udaipur_mountabu.webp" class="card-img-top rounded" alt="..." />
+            <div class="card-body">
+              <a class="text-decoration-none" href="">
+                <h5 class="card-title fw-bolder text-center">Udaipur Mountabu</h5></a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col border-0">
+          <div class="card h-100 border-0 rounded-0 rounded">
+            <img
+              src="images/rishikesh.webp"
+              class="card-img-top rounded"
+              alt="..."
+            />
+            <div class="card-body">
+              <a class="text-decoration-none" href="Rishikesh.html">
+                <h5 class="card-title fw-bolder text-center">
+                  Rishikesh
+                </h5></a>
+            </div>
+          </div>
+        </div>
+        <div class="col border-0">
+          <div class="card h-100 border-0 rounded-0 rounded">
+            <img
+              src="images/Hampta Passs Trek With Chandratal.webp"
+              class="card-img-top rounded"
+              alt="..."
+            />
+            <div class="card-body">
+              <a class="text-decoration-none" href="Hampta_Pass.html">
+                <h5 class="card-title fw-bolder text-center">
+                  Hampta Passs Trek With Chandratal
+                </h5></a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col border-0">
+          <div class="card h-100 border-0 rounded-0 rounded">
+            <img
+              src="images/mcledonj.webp"
+              class="card-img-top rounded"
+              alt="..."
+            />
+            <div class="card-body">
+              <a class="text-decoration-none" href="mcleodganj-triund.html">
+                <h5 class="card-title fw-bolder text-center">
+                  Mcleodganj Triund
+                </h5></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+
+    <!------------------------------------------------ Testimonial Start-------------------------------- -->
+    <div class="text-center text-white   testtimonial_bg">
+      <h1 class="display-4">Testimonials</h1>
+      <div class="w-25 h-1 mx-auto bg-danger mt-3"></div>
+    </div>
+    
+    <div class="testimonial-slider py-5 bg-light">
+      <div class="slider-track ">
+          <div class="testimonial-card">
+              <div class="overlay"></div>
+              <div class="content">
+                  <p>I was taking services from Kanak Drishti Infotech since 3 and 1/2 years. I am very much satisfied with his work. Today what I achieve is because of Kanak Drishti Infotech.</p>
+                  <h4 class="text-center">Rakesh Sharma</h4>
+                  <div class="d-flex text-center star_div">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+              </div>
+          </div>
+          <div class="testimonial-card">
+              <div class="overlay"></div>
+              <div class="content">
+                  <p>I am very much satisfied with the work provided by Drishti Infotech SEO Services, Web Designing. I am getting good results from the Net.</p>
+                  <h4 class="text-center">Harpreet Singh</h4>
+                  <div class="d-flex text-center star_div">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+              </div>
+          </div>
+          <div class="testimonial-card">
+              <div class="overlay"></div>
+              <div class="content">
+                  <p>I have been working with Kanak Drishti Infotech Pvt. Ltd. for a long time, and our team is very satisfied with their work. All our development work is handled by this company.</p>
+                  <h4 class="text-center">Mr. Ashutosh Panwar</h4>
+                  <div class="d-flex text-center star_div">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+              </div>
+          </div>
+          <div class="testimonial-card">
+              <div class="overlay"></div>
+              <div class="content">
+                  <p>Kanak Drishti Infotech Pvt. Ltd. has a very experienced designing & development team. We have been working with this company for the last 3 years. This team has developed many websites for us, and all are outstanding.</p>
+                  <h4 class="text-center">Mr. Amit Kumar</h4>
+                  <div class="d-flex text-center star_div">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+              </div>
+          </div>
+          <div class="testimonial-card">
+              <div class="overlay"></div>
+              <div class="content">
+                  <p>I am very satisfied with the Kanak Drishti IT team. Got a great experience working with this highly professional team.</p>
+                  <h4 class="text-center">Deepak Chopra</h4>
+                  <div class="d-flex text-center star_div">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+              </div>
+          </div>
+          <div class="testimonial-card">
+              <div class="overlay"></div>
+              <div class="content">
+                  <p>I am very much satisfied with the work provided by Drishti Infotech SEO Services, Web Designing. I am getting good results from the Net.</p>
+                  <h4 class="text-center">Komal Singh</h4>
+                  <div class="d-flex text-center star_div">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+              </div>
+          </div>
+          <!-- Add more testimonials here -->
+      </div>
+    </div>
+
+
+
+
+
+    <!------------------------------------------------ Footer Start-------------------------------- -->
+
+    <div class="footer_main">
+      <div class="container footer_main">
+        <div class="row pt-5">
+          <div class="col-3">
+            <img
+              class="w-25 mb-2 logo_img"
+              src="images/logo.png"
+              alt="Banjaarey Travels Logo"
+            />
+            <h6 class="text-white">
+              Banjaarey Travels is here to turn your travel dreams into reality.
+              Join us on an unforgettable journey of discovery, adventure, and
+              exploration.
+            </h6>
+          </div>
+
+          <div class="col-3">
+            <h3 class="text-white mb-4 text-start fw-bolder " id="header">Quick Links</h3>
+            <ul class="text-white list-unstyled text-start Quicklinks_li">
+              <li class="mb-1 text-capitalize">
+                <a class="text-decoration-none text-white" href="/about"
+                  >About Us</a
+                >
+              </li>
+              <li class="mb-1 text-capitalize">
+                <a class="text-decoration-none text-white" href="/contact"
+                  >Contact Us</a
+                >
+              </li>
+              <li class="mb-1 text-capitalize">
+                <a class="text-decoration-none text-white" href="Packages.html"
+                  >Our Packages </a
+                >
+              </li>
+              <li class="mb-1 text-capitalize">
+                <a class="text-decoration-none text-white" href="Weekend Trips.html"
+                  >Weekend Packages</a
+                >
+              </li>
+              <!-- <li class="mb-1 text-capitalize">
+                <a class="text-decoration-none text-white" href="/Contact.html"
+                  >Book Now</a
+                >
+              </li> -->
+            </ul>
+          </div>
+
+          <div class="col-3">
+            <h3 class="text-white mb-4 text-start fw-bolder">Explore Tours</h3>
+            <ul class="text-white list-unstyled text-start">
+                <li class="text-capitalize">
+                    <a class="text-decoration-none text-white" href="JIBHI-Thirtan.html">Jibhi-thirthan</a>
+                </li>
+                <li class="text-capitalize">
+                    <a class="text-decoration-none text-white" href="Spitivalley.html">Spiti Valley </a>
+                </li>
+                <li class="text-capitalize">
+                    <a class="text-decoration-none text-white" href="Kinnaur.html">Kinnaur Kailash
+                    </a>
+                </li>
+                <li class="text-capitalize">
+                    <a class="text-decoration-none text-white" href="Manli-kasol.html">Manali Kasol</a>
+                </li>
+                <li class="text-capitalize">
+                    <a class="text-decoration-none text-white" href="BirBillingTrek.html">Bir Billing Trek
+                    </a>
+                </li>
+                <li class="text-capitalize">
+                    <a class="text-decoration-none text-white" href="mcleodganj-triund.html">Mcleodganj-Triund</a>
+                </li>
+            </ul>
+        </div>
+
+          <div class="col-3">
+            <h3 class="text-white mb-4 text-start fw-bolder" id="header">Contact Us</h3>
+            <ul class="text-white list-unstyled text-start">
+              <li class="mb-3">
+                <i class="fa-solid fa-phone"></i> +91 9625781262
+              </li>
+              <li class="mb-3">
+                <i class="fa-solid fa-envelope"></i> sales@banjaareytravels.com
+              </li>
+            </ul>
+
+            <div class="icons_div">
+              <a
+                href="https://www.facebook.com/profile.php?id=61557922184885"
+                target="_blank"
+              >
+                <i class="fa-brands fa-facebook " style="color: blue;"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/banjaarey_travels/"
+                target="_blank"
+              >
+                <i class="fa-brands fa-instagram" style="color: red;"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/company/2548902/admin/feed/posts/"
+                target="_blank"
+              >
+                <i class="fa-brands fa-linkedin" style="color: blue;"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <hr class="text-white fw-bolder" />
+
+        <div class="container d-flex kanak">
+          <p class="text-white text-start kanak_first">
+            2024 KDIPL All rights reserved
+          </p>
+          <p class="text-white kanak_second">
+            Designed and Developed by
+            <span class="text-danger">
+              <a
+                class="text-decoration-underlined text-white"
+                href="https://kanakdrishtiinfo.com/"
+                target="_blank"
+                >Kanak Drishti Infotech</a
+              >
+            </span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-----------------------------------JQUERY LINK  -------------------------------------------------->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-JobWAqYk5CSjWuVV3mxgS+MmccJqkrBaDhk8SKS1BW+71dJ9gzascwzW85UwGhxiSyR7Pxhu50k+Nl3+o5I49A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-----------------------------------OWL CAROUSEL CDN  -------------------------------------------------->
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 2,
+          },
+          1000: {
+            items: 4,
+          },
+        },
+      });
+    </script>
+
+    <script src="test.js"></script>
+  </body>
+</html>

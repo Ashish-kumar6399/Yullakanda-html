@@ -1,0 +1,759 @@
+
+/*---------------------------------------------- navbar Start-----------------------------------------------------  */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+* {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+/* Navbar background color */
+.navbar {
+  background-color: #00b8b8;
+  /* padding: 10px 20px; */
+}
+
+/* Brand logo */
+.logo {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+}
+
+/* Brand text */
+.navbar-brand span {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+/* Nav link styles */
+.navbar-nav .nav-link {
+  color: white;
+  font-weight: 500;
+  margin: 0 15px;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #cceff1;
+}
+
+.navbar-nav .nav-link.active {
+  color: white;
+  font-weight: bold;
+}
+
+/* Book Now button */
+.btn-book-now {
+  color: #00b8b8;
+  padding: 8px 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-book-now:hover {
+  background-color: #004d4d;
+  color: white;
+}
+
+/* Responsive styles */
+@media (max-width: 300px) {
+  .navbar-brand {
+      margin-left: 0;
+  }
+  
+  .navbar-nav {
+      text-align: center;
+  }
+
+  .btn-book-now {
+      margin-top: 10px;
+  }
+}
+
+/* Top header background color */
+.top-header {
+  background-color: #000000;
+  font-size: 14px;
+}
+
+/* Contact info styles */
+.contact-info {
+  font-size: 14px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact-info i {
+  font-size: 16px;
+}
+
+/* Social media icons */
+.social-icons a {
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #00b8b8;
+}
+
+/* Responsive styles */
+@media (max-width: 300px) {
+  .contact-info {
+      justify-content: center;
+  }
+
+  .social-icons {
+      margin-top: 10px;
+      justify-content: center;
+  }
+}
+
+
+@media (min-width: 1000px) and (max-width: 2000px){
+  #book_btn{
+    margin-left: 5rem;
+  }
+}
+
+
+
+
+
+
+
+
+/*---------------------------------------------- navbar End-----------------------------------------------------  */
+
+
+#carousel_img {
+  width: 100%;
+  object-fit: cover;
+  height: 80vh; 
+}
+
+/* Responsive for tablets */
+@media (max-width: 991px) {
+  #carousel_img {
+    height: 60vh; 
+  }
+}
+
+/* Responsive for mobile devices */
+@media (max-width: 575px) {
+  #carousel_img {
+    height: 50vh; 
+  }
+}
+
+/* For very small devices */
+@media (max-width: 430px) {
+  #carousel_img {
+    height: 40vh;
+  }
+}
+
+
+
+.footer_main {
+  background-color: rgb(29,197,206)
+  ;
+}
+
+.footer_main .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer_main h3 {
+  font-size: 1.5rem;
+}
+
+.footer_main h6 {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.footer_main ul {
+  padding: 0;
+  list-style: none;
+}
+
+.footer_main ul li {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.fa-facebook {
+  font-size: 2.5rem;
+  transition: transform 0.3s ease;
+}
+
+.fa-facebook:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .footer_main .row {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .footer_main .col-1 {
+      display: none;
+  }
+
+  .footer_main .col-4,
+  .footer_main .col-3 {
+      flex: 1;
+      margin-bottom: 2rem;
+      width: 100%;
+  }
+
+  .footer_main h3 {
+      font-size: 1.25rem;
+  }
+
+  .footer_main ul li {
+      font-size: 0.875rem;
+  }
+
+  .fa-facebook {
+      font-size: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer_main h3 {
+      font-size: 1.125rem;
+  }
+
+  .footer_main ul li {
+      /* font-size: 0.75rem; */
+  }
+
+  .fa-facebook {
+      font-size: 1.5rem;
+  }
+}
+
+
+
+
+.kanak{
+  width: 100%;
+
+}
+
+.kanak_first{
+  text-align: start;
+  width: 50%;
+}
+.kanak_second{
+  text-align: end;
+  width: 50%;
+}
+
+.icons_div{
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  
+}
+
+
+.fa-facebook {
+  font-size: 1.5rem;
+  transition: transform 0.3s ease;
+  color: white;
+}
+
+.fa-facebook:hover {
+  transform: scale(1.1);
+}
+
+.fa-instagram {
+  font-size: 1.5rem;
+  transition: transform 0.3s ease;
+  color: white;
+}
+
+.fa-instagram:hover {
+  transform: scale(1.1);
+}
+
+.fa-linkedin {
+  font-size: 1.5rem;
+  transition: transform 0.3s ease;
+  color: white;
+}
+
+.fa-twitter:hover {
+  transform: scale(1.1);
+}
+
+
+@media (max-width: 350px) {
+  .fa-facebook {
+      font-size: 1.125rem;
+  }
+
+  .fa-instagram {
+      font-size: 1.125rem;
+  }
+
+  .fa-twitter {
+      font-size: 1.125rem;
+  }
+
+  .kanak_second{
+      font-size: 10px;
+  }
+
+  .kanak_first{
+      font-size: 10px;
+  }
+}
+
+
+
+*{
+  font-family: sans-serif;
+}
+
+
+
+
+
+
+@media screen and (max-width: 500px) {
+ .col-3 h6{
+  text-align: justify;
+ }
+}
+
+
+
+@media screen and (min-device-width: 800px) and (max-device-width:2000px) { 
+.Quicklinks_li {
+  margin-left: 20%;
+}
+
+.Quick{
+  margin-left: 10%;
+
+}
+
+}
+
+
+.logo_img{
+  height: 4.2rem;
+}
+
+
+@media (min-width: 1000px) and (max-width: 2000px){
+  #header{
+margin-left: 2rem; }
+
+}
+
+
+
+/*----------------------------------footer End-------------------------------------  */
+
+/*----------------------------------Package Start-------------------------------------  */
+
+
+.package {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.package-container h3 {
+  font-size: 4rem;
+}
+
+.krishna-text {
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+  color: #464646;
+  font-size: 1.2rem;
+}
+
+.package-details {
+  margin: 0.5rem 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.package-details .col {
+  flex: 1 1 18%;
+  margin-bottom: 1rem;
+}
+
+.yulla-card {
+  width: 80%;
+  margin-top: 2rem;
+}
+
+.yulla-card img {
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+}
+
+
+@media (max-width: 1024px) {
+  .package-container h3 {
+      font-size: 3rem;
+  }
+
+  .krishna-text {
+      font-size: 1rem;
+  }
+
+  .yulla-card img {
+      height: 18rem;
+  }
+
+  .package-details {
+      margin: 0.5rem 1rem;
+  }
+
+  .package-details .col {
+      flex: 1 1 30%;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .package-container h3 {
+      font-size: 2.5rem;
+  }
+
+  .krishna-text {
+      font-size: 0.9rem;
+  }
+
+  .yulla-card img {
+      height: 16rem;
+  }
+
+  .package-details .col {
+      flex: 1 1 45%;
+  }
+}
+
+
+@media (max-width: 430px) {
+  .package-container h3 {
+      font-size: 2rem;
+  }
+
+  .krishna-text {
+      font-size: 0.8rem;
+  }
+
+  .yulla-card img {
+      height: 14rem;
+  }
+
+  .package-details {
+      margin: 0.5rem;
+  }
+
+  .package-details .col {
+      flex: 1 1 100%;
+  }
+}
+
+/*----------------------------------Package End-------------------------------------  */
+
+
+
+
+/*----------------------------------About Start-------------------------------------  */
+
+
+
+
+
+
+.kinnaur_bg{
+  margin-bottom: 2rem;
+}
+
+#para_font{
+  font-size: 14px;
+}
+
+
+
+
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+/* Image section styling */
+.about-img {
+  position: relative;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.carousel {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+/* .carousel img {
+  border-radius: 8px;
+} */
+
+/* Text section styling */
+.about-text {
+  max-width: 600px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  color: #333;
+}
+
+.about-text h4 {
+  color: #007bff;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.about-text h3 {
+  color: #333;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.about-text p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 0.75rem;
+}
+
+.about-text p span {
+  font-weight: 600;
+  color: #007bff;
+}
+
+@media (max-width: 992px) {
+  .about-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-img,
+  .about-text {
+    max-width: 100%;
+    margin: 0;
+  }
+}
+
+
+/*----------------------------------About End-------------------------------------  */
+
+
+
+
+
+
+.typewriter  {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  color: #fc770a;
+  animation: 
+    typing 7s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  /* 50% { border-color: orange; } */
+}
+
+.card-img-top{
+  height: 20rem;
+}
+
+#packages_div_main{
+  width: 80%;
+
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+  #packages_div_main{
+    width: 100%;
+  }
+  }
+
+
+
+  
+
+  .testimonial-slider {
+    position: relative;
+    overflow: hidden;
+    padding: 2rem 0;
+}
+
+.slider-track {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1.5rem;
+    animation: scroll 30s linear infinite; /* Continuous scroll animation */
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.testimonial-card {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 1.5rem;
+    width: 16rem;
+    margin-right: 1.5rem;
+    flex-shrink: 0;
+    position: relative;
+    transition: transform 0.5s ease;
+}
+
+.testimonial-card:hover {
+    transform: scale(1.05);
+}
+
+.testimonial-card img {
+    border-radius: 0.5rem;
+    max-width: 100%;
+    height: auto;
+}
+
+.testimonial-card .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+    transition: backdrop-filter 0.5s ease;
+}
+
+/* .testimonial-card:hover .overlay {
+    backdrop-filter: blur(10px);
+} */
+
+.testimonial-card p,
+.testimonial-card h4 {
+    color: #000;
+}
+
+.testimonial-card h4 {
+    font-weight: bold;
+}
+
+/* Responsive styles for tablet devices (widths 768px and below) */
+@media (max-width: 768px) {
+    .testimonial-slider {
+        padding: 1.5rem 1rem;
+    }
+
+    .testimonial-card {
+        width: 14rem;
+        padding: 1rem;
+    }
+}
+
+/* Responsive styles for mobile devices (widths 480px and below) */
+@media (max-width: 480px) {
+    .testimonial-slider {
+        padding: 1rem 0.5rem;
+    }
+
+    .testimonial-card {
+        width: 12rem;
+        padding: 0.75rem;
+    }
+
+    .testimonial-card h4 {
+        font-size: 1rem;
+    }
+
+    .testimonial-card p {
+        font-size: 0.875rem;
+    }
+}
+
+
+
+.testtimonial_bg{
+    background: rgb(40,90,141);
+}
+
+
+.star_div{
+    width: 100%;
+    justify-content: center;
+    /* justify-content: space-between; */
+}
+
+.fa-star{
+    color: goldenrod;
+    font-size: 1.5rem;
+}
+
+
+
+
+

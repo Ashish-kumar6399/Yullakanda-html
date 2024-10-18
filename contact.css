@@ -1,0 +1,23 @@
+CONTACT US CSS
+
+#contact-us h2 {
+    color: #333;
+    font-size: 2rem;
+  }
+  
+  #contact-us p {
+    color: #666;
+    font-size: 1.1rem;
+  }
+  
+  #contact-us .contact-details {
+    margin-top: 20px;
+  }
+  
+  #contact-us .social-icons img {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  #contact-us .social-icons img:hover {
+    transform: scale(1.1);
+  }
